@@ -3,4 +3,10 @@
     background-image: url(../images/background-main-third.png);
     background-size: 100%;
     background-repeat: no-repeat;
+
+    &__box {
+        max-width: 1113px;
+        width: 100%;
+        margin: auto;
+    }
 }
