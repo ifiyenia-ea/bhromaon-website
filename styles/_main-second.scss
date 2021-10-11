@@ -1,76 +1,75 @@
 
-@media screen and (min: 801px){
-    
-.main-second-1 {
-    height: 1400px;
-    background-image: url(../images/background-main-second-1.png);
-    background-repeat: no-repeat;
+@media screen and (min-width: 801px) {
+    .main-second-1 {
+        height: 1400px;
+        background-image: url(../images/background-main-second-1.png);
+        background-repeat: no-repeat;
 
-    &__box {
-        max-width: 1113px;
-        width: 100%;
-        margin: auto;
-        display: grid;
-        grid-template-rows: repeat(8, 1fr);
-    }
-
-    &__card {
-        max-width: 543px;
-        max-height: 374px;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(35, 35, 35, 0.8);
-        padding: 30px;
-        grid-row: 3 / 7;
-
-        &-btn {
-            background-color: $blue;
-            width: 228px;
-            height: 63px;
-            color: white;
-            font-family: 'aleo', serif;
-            font-size: 16px;
-            letter-spacing: 1.2px;
+        &__box {
+            max-width: 1113px;
+            width: 100%;
+            margin: auto;
+            display: grid;
+            grid-template-rows: repeat(8, 1fr);
         }
 
-    }
-}
+        &__card {
+            max-width: 543px;
+            max-height: 374px;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(35, 35, 35, 0.8);
+            padding: 30px;
+            grid-row: 3 / 7;
 
-.main-second-2 {
-    height: 1400px;
-    background-image: url(../images/background-main-second-2.png);
-    background-repeat: no-repeat;
+            &-btn {
+                background-color: $blue;
+                width: 228px;
+                height: 63px;
+                color: white;
+                font-family: 'aleo', serif;
+                font-size: 16px;
+                letter-spacing: 1.2px;
+            }
 
-    &__box {
-        max-width: 1113px;
-        width: 100%;
-        margin: auto;
-        display: grid;
-        grid-template-rows: repeat(8, 1fr);
-        grid-template-columns: repeat(2, 50%);
-    }
-
-    &__card {
-        max-width: 543px;
-        max-height: 374px;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(35, 35, 35, 0.8);
-        padding: 30px;
-        grid-row: 3 / 7;
-        grid-column: 2;
-
-        &-btn {
-            background-color: $blue;
-            width: 228px;
-            height: 63px;
-            color: white;
-            font-family: 'aleo', serif;
-            font-size: 16px;
-            letter-spacing: 1.2px;
         }
     }
-}
+
+    .main-second-2 {
+        height: 1400px;
+        background-image: url(../images/background-main-second-2.png);
+        background-repeat: no-repeat;
+
+        &__box {
+            max-width: 1113px;
+            width: 100%;
+            margin: auto;
+            display: grid;
+            grid-template-rows: repeat(8, 1fr);
+            grid-template-columns: repeat(2, 50%);
+        }
+
+        &__card {
+            max-width: 543px;
+            max-height: 374px;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(35, 35, 35, 0.8);
+            padding: 30px;
+            grid-row: 3 / 7;
+            grid-column: 2;
+
+            &-btn {
+                background-color: $blue;
+                width: 228px;
+                height: 63px;
+                color: white;
+                font-family: 'aleo', serif;
+                font-size: 16px;
+                letter-spacing: 1.2px;
+            }
+        }
+    }
 
 }
 
