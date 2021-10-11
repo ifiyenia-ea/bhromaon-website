@@ -1,4 +1,31 @@
 .footer {
     background-color: $grey;
     height: 271px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+
+    &__logo {
+        margin-bottom: -20px;
+    }
+
+    &__so-me i {
+        margin-left: 20px;
+        margin-bottom: 30px;
+
+        &:hover {
+            transform: scale(2);
+        }
+    }
+
+    &__so-me-light {
+        color: $light;
+    }
+
+    &__so-me-blue {
+        color: $blue;
+    }
+
 }

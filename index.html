@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/1e4548fb2b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/index.css">
     <title>bhromaon - home</title>
 </head>
@@ -59,7 +59,7 @@
                     Ddislike men who are so beguiled and demoralized by the charms of
                     pleasure of the moment, so blinded by desire, that.</p>
 
-                <a href="#"><button class="main-first__box-btn">
+                <a href="#" class="main-first__box-button"><button class="main-first__box-btn">
                     EXPLORE PLACES
                 </button></a>
             </div>
@@ -74,19 +74,23 @@
     <section class="main-first-2">
         <div class="main-first-2__icons">
             <div class="main-first-2__icons-box">
-                <img src="images/icon-search.png" alt="search icon">
-                <img src="images/icon-check.png" alt="check icon">
-                <img src="images/icon-thumb.png" alt="thumbs up icon">
-        
-                <h2 class="main-first__icons-text">Search Places</h2>
-                <h2 class="main-first__icons-text">Select Places</h2>
-                <h2 class="main-first__icons-text">Book & Enjoy</h2>
+                <img src="images/icon-search.png" alt="search icon" class="main-first-2__icons-1">
+                <img src="images/icon-check.png" alt="check icon" class="main-first-2__icons-2">
+                <img src="images/icon-thumb.png" alt="thumbs up icon" class="main-first-2__icons-3">
+                         
             </div>
             
+            <div class="main-first-2__icons-text">
+                <h2 class="main-first__icons-text-1">Search Places</h2>
+                <h2 class="main-first__icons-text-2">Select Places</h2>
+                <h2 class="main-first__icons-text-3">Book & Enjoy</h2>  
+            </div>
+
         </div>
     </section>
 
     <section class="main-second-1">
+        <div class="main-second-1__box">
             <div class="main-second-1__card">
                 <h4 class="main-second-1__card-title">Spain</h4>
                 <h4 class="main-second-1__card-title">GRAND SPAIN MADRID</h4>
@@ -94,13 +98,15 @@
                     idea of account to denouncing pleasure and praising pain was account  born
                     and I account will give you a complete account of the system</p>
                 
-                <a href="#"><button class="main-second__card-btn">
+                <a href="#"><button class="main-second-1__card-btn">
                     BOOK NOW
                 </button></a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="main-second-2">
+    <section class="main-second-2">
+        <div class="main-second-2__box">
             <div class="main-second-2__card">
                 <h4 class="main-second-2__card-title">Spain</h4>
                 <h4 class="main-second-2__card-title">GRAND SPAIN MADRID</h4>
@@ -108,11 +114,12 @@
                     idea of account to denouncing pleasure and praising pain was account  born
                     and I account will give you a complete account of the system</p>
                 
-                <a href="#"><button class="main-second__card-btn">
+                <a href="#"><button class="main-second-2__card-btn">
                     BOOK NOW
                 </button></a>
             </div>
-        </section>
+        </div>
+    </section>
 
     <section class="main-third">
         <div class="main-third__box">
@@ -122,12 +129,14 @@
 
             <div class="main-third__card">
                 <img src="images/img-main-third.png" alt="person overlooking mountains">
-                <h4 class="main-third__card-title">SAM SUMON</h4>
-                <p class="main-third__card-text">  But I must explain to you how all this mistaken idea of 
-                    account to denouncinpleasure and praising pain  But I must explain to you how all this 
-                    mistaken idea of account to nai denouncing pleasure and praising pain was account  born 
-                    and I account will give you a complete account of the system was account  born and I 
-                    account will give you a nai the complete account of the system</p>
+                    <div class="main-third__card-box">
+                        <h4 class="main-third__card-title">SAM SUMON</h4>
+                        <p class="main-third__card-text"> <i class="fas fa-quote-left quote-icon"></i> But I must explain to you how all this mistaken idea of 
+                            account to denouncinpleasure and praising pain  But I must explain to you how all this 
+                            mistaken idea of account to nai denouncing pleasure and praising pain was account  born 
+                            and I account will give you a complete account of the system was account  born and I 
+                            account will give you a nai the complete account of the system</p>
+                    </div>
         
             </div>
         </div>
@@ -137,11 +146,14 @@
 
         <h1 class="footer__logo">BHROMAON</h1>
         <h3 class="footer__slogan">Safe Travel Anywhere</h3>
-        <a href="#"><img src="images/icon-facebook.png" alt="logo facebook"></a>
-        <a href="#"><img src="images/icon-twitter.png" alt="logo twitter"></a>
-        <a href="#"><img src="images/icon-linkedin.png" alt="logo linkedin"></a>
-        <a href="#"><img src="images/icon-youtube.png" alt="logo youtube"></a>
-        <a href="#"><img src="images/icon-pinterest.png" alt="logo pinterest"></a>
+
+        <div class="footer__so-me">
+            <a href="#"><i class="fab fa-facebook-f footer__so-me-light"></i></a>
+            <a href="#"><i class="fab fa-twitter footer__so-me-light"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in footer__so-me-blue"></i></a>
+            <a href="#"><i class="fab fa-youtube footer__so-me-light"></i></a>
+            <a href="#"><i class="fab fa-pinterest footer__so-me-light"></i></a>
+        </div>
 
     </footer>
 </body>

@@ -13,18 +13,22 @@
             text-decoration: none;
     
             &:visited {
-                color: black;
+                color: beige;
             }
 
             &:hover {
                 color: $blue-alt;
             }
+
+            &:active {
+                color: $blue-alt;
+            }
+
         }
 
         &-logo {
             font-size: 24px;
             letter-spacing: 2.4px;
-            
         }
 
         &-ul {

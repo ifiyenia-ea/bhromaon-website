@@ -15,24 +15,33 @@
             max-width: 562px;
             max-height: 342px;
             display: grid;
-            grid-template-rows: repeat(8, 1fr);
-
+            grid-template-rows: repeat(10, 45px);
         }
 
         &-title {
-            grid-row: 5 / 6;
-        }
-
-        &-text-1 {
             grid-row: 6 / 7;
         }
 
-        &-text-2 {
+        &-text-1 {
             grid-row: 7 / 8;
         }
 
+        &-text-2 {
+            grid-row: 9;
+        }
+
+        &-button {
+            grid-row: 11;
+        }
+
         &-btn {
-            grid-row: 8 / 9;
+            background-color: $blue;
+            width: 228px;
+            height: 63px;
+            color: white;
+            font-family: 'aleo', serif;
+            font-size: 16px;
+            letter-spacing: 1.2px;
         }
     
         &-imgs {
@@ -55,16 +64,26 @@
         }
     }
 
-
-
     &-2__icons {
         background-color: #333333;
         height: 340px;
+        display: grid;
+  
 
         &-box {
             max-width: 1113px;
             width: 100%;
             margin: auto;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        &-text {
+            max-width: 1113px;
+            width: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
         }
     }
 
