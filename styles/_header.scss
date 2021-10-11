@@ -1,0 +1,41 @@
+.header {
+    background-color: $blue;
+    // max-width: 1200px;
+    // width: 100%;
+
+    &__nav {
+        display: inline-flex;
+        align-items: center;
+
+        & a {
+            text-decoration: none;
+    
+            &:visited {
+                color: black;
+            }
+
+            &:hover {
+                color: $blue-alt;
+            }
+        }
+
+        &-logo {
+            font-size: 24px;
+            letter-spacing: 2.4px;
+            
+        }
+
+        &-ul {
+            list-style: none;
+            display: inline-flex;
+
+        }
+
+        &-li {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+    }
+
+}
