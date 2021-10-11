@@ -1,7 +1,4 @@
 .first {
-    background-image: url(../images/background-first.png);
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -58,3 +55,37 @@
     cursor: pointer;
   }
   
+@media screen and (min-width: 801px) {
+    .first {
+       background-image: url(../images/background-first.png);
+       background-position: center;
+       background-repeat: no-repeat;
+    }
+  }
+  
+
+@media screen and (max-width: 800px) {
+    .first {
+        background-image: url(../images/background-first.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 800px;
+        width: 100%;
+
+    }
+    
+
+
+@media screen and (max-width: 320px) {
+    .first {
+        background-image: url(../images/background-first.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: stretch;
+        width: 320
+    
+        }
+        
+}
+
+}

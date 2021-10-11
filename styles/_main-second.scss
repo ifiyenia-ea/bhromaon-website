@@ -1,3 +1,6 @@
+
+@media screen and (min: 801px){
+    
 .main-second-1 {
     height: 1400px;
     background-image: url(../images/background-main-second-1.png);
@@ -67,4 +70,71 @@
             letter-spacing: 1.2px;
         }
     }
+}
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .main-second-1 {
+        background-image: url(../images/background-main-second-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__card {
+            width: 70%;
+            height: 70%;
+            background-color: rgba(35, 35, 35, 0.8);
+            padding: 30px;
+            margin: 20px;
+
+            &-btn {
+                background-color: $blue;
+                width: 200px;
+                height: 40px;
+                color: white;
+                font-family: 'aleo', serif;
+                font-size: 16px;
+                letter-spacing: 1.2px;
+            }
+        }
+    }
+
+    .main-second-2 {
+        background-image: url(../images/background-main-second-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__card {
+            width: 70%;
+            height: 70%;
+            background-color: rgba(35, 35, 35, 0.8);
+            padding: 30px;
+            margin: 20px;
+            
+
+            &-btn {
+                background-color: $blue;
+                width: 200px;
+                height: 40px;
+                color: white;
+                font-family: 'aleo', serif;
+                font-size: 16px;
+                letter-spacing: 1.2px;
+            }
+        }
+    }
+    
+}
+
+
+@media screen and (max-width: 320px) {
+    
+    
 }
